@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'ACPGriffon'
+  s.dependency 'ACPAnalytics'
+  s.dependency 'ACPCore'
+  s.dependency 'ACPGriffon', '1.1.3'
   s.platform = :ios, '10.0'
   s.static_framework = true
 
